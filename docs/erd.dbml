@@ -1,0 +1,164 @@
+// ERD database methodist_lubuk_pakam_medan (15 tabel aplikasi).
+// Tempel isi file ini di https://dbdiagram.io untuk menggambar ERD Bab III.
+
+Table users {
+  id bigint [pk]
+  name varchar
+  email varchar [unique]
+  password varchar
+  role varchar [note: 'super_admin, admin_konten, admin_ppdb']
+  is_active boolean
+}
+
+Table activity_logs {
+  id bigint [pk]
+  user_id bigint [ref: > users.id]
+  aksi varchar
+  objek varchar
+  objek_id bigint
+  ip_address varchar
+}
+
+Table settings {
+  id bigint [pk]
+  key varchar [unique]
+  value text
+}
+
+Table units {
+  id bigint [pk]
+  kode varchar [unique, note: 'tk, sd, smp, sma']
+  nama varchar
+  urutan tinyint
+  deskripsi_singkat text
+  gambar varchar
+  npsn varchar
+  akreditasi varchar
+  alamat varchar
+  visi text
+  misi text
+  sambutan text
+  nama_kepsek varchar
+  foto_kepsek varchar
+  kurikulum longtext
+}
+
+Table slides {
+  id bigint [pk]
+  lokasi varchar [note: 'pembuka, beranda, unit']
+  unit_id bigint [ref: > units.id]
+  judul varchar
+  subjudul varchar
+  gambar varchar [note: 'kosong = kotak abu-abu sampai foto asli diunggah']
+  alt varchar
+  atribut json [note: 'lencana, ikon, tombol per slide (Hal. 2)']
+  urutan smallint
+  aktif boolean
+}
+
+Table konten_blok {
+  id bigint [pk]
+  kunci varchar [unique, note: 'misal beranda.kemitraan, sejarah.linimasa']
+  data json [note: 'isi bagian halaman sesuai desain Stitch']
+}
+
+
+
+
+Table ppdb_unit_info {
+  id bigint [pk]
+  unit_id bigint [unique, ref: - units.id]
+  syarat longtext
+  jadwal longtext
+  alur longtext
+}
+
+Table guru {
+  id bigint [pk]
+  unit_id bigint [ref: > units.id]
+  nama varchar
+  jabatan varchar
+  foto varchar
+  urutan smallint
+}
+
+Table informasi_unit {
+  id bigint [pk]
+  unit_id bigint [ref: > units.id]
+  judul varchar
+  slug varchar [unique]
+  konten longtext
+  gambar varchar
+  published_at timestamp
+  deleted_at timestamp
+}
+
+Table alumni {
+  id bigint [pk]
+  nama varchar
+  angkatan smallint
+  kampus_pekerjaan varchar
+  foto varchar
+  testimoni text
+}
+
+Table ppdb_pendaftar {
+  id bigint [pk]
+  token uuid [unique]
+  no_pendaftaran varchar [unique]
+  unit_id bigint [ref: > units.id]
+  email varchar
+  nama_depan varchar
+  nama_belakang varchar
+  tempat_lahir varchar
+  tanggal_lahir date
+  alamat text
+  no_hp varchar
+  golongan_darah varchar [note: 'A, B, AB, O']
+  tinggi_cm smallint
+  berat_kg smallint
+  tinggal_bersama varchar [note: 'orang_tua, wali, lainnya']
+  tinggal_bersama_ket varchar
+  naik_ke_kelas varchar [note: 'tk, sd, smp, sma']
+  asal_sekolah varchar
+  status varchar [note: 'draf, terkirim, diverifikasi, diterima, ditolak']
+  submitted_at timestamp
+  deleted_at timestamp
+}
+
+Table ppdb_orang_tua {
+  id bigint [pk]
+  pendaftar_id bigint [ref: > ppdb_pendaftar.id]
+  hubungan varchar [note: 'ayah, ibu, wali']
+  nama varchar
+  alamat text
+  pekerjaan varchar
+  rentang_penghasilan varchar
+  no_hp varchar
+}
+
+Table ppdb_dokumen {
+  id bigint [pk]
+  pendaftar_id bigint [ref: > ppdb_pendaftar.id]
+  jenis varchar [note: 'kk, akta']
+  path varchar
+  mime varchar
+  ukuran int
+}
+
+Table instagram_posts {
+  id bigint [pk]
+  ig_media_id varchar [unique]
+  caption text
+  media_type varchar
+  gambar_lokal varchar
+  permalink varchar
+  posted_at timestamp
+}
+
+Table instagram_token {
+  id bigint [pk]
+  token text [note: 'terenkripsi oleh Express']
+  expires_at timestamp
+  refreshed_at timestamp
+}

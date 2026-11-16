@@ -1,0 +1,183 @@
+{
+  "pimpinan": {
+    "label": "Galeri Khusus 1",
+    "judul": "Jajaran Petinggi & Pimpinan Sekolah",
+    "deskripsi": "Dewan Pembina, Pengurus Yayasan, serta para Kepala Sekolah yang mengawal visi mutu Perguruan Methodist Lubuk Pakam.",
+    "meta": "Struktur Kepemimpinan 2024-2028",
+    "item": [
+      {
+        "label": "Dewan Pembina",
+        "label_kelas": "bg-primary text-on-primary",
+        "nama": "Bishop Dr. K. Pasaribu, M.Th.",
+        "jabatan": "Ketua Dewan Pembina Yayasan",
+        "isi": "Membimbing arah strategis spiritual dan peneguhan integritas Alkitabiah di seluruh ekosistem perguruan.",
+        "foto": null
+      },
+      {
+        "label": "Pengurus Yayasan",
+        "label_kelas": "bg-primary-container text-on-primary",
+        "nama": "Ir. Ronald Hutapea, M.M.",
+        "jabatan": "Ketua Yayasan Pendidikan Methodist",
+        "isi": "Mengorkestrasi tata kelola manajerial, modernisasi infrastruktur kampus, serta tata laksana operasional.",
+        "foto": null
+      },
+      {
+        "label": "Direktorat",
+        "label_kelas": "bg-tertiary-container text-on-tertiary",
+        "nama": "Dra. Martha Tampubolon, M.Pd.",
+        "jabatan": "Direktur Pelaksana Pendidikan",
+        "isi": "Menyelaraskan standar kurikulum nasional, kompetensi tenaga pendidik, dan program unggulan siswa.",
+        "foto": null
+      },
+      {
+        "label": "SMA Methodist",
+        "label_kelas": "bg-secondary text-on-secondary",
+        "nama": "Drs. Samuel Sitorus, M.Si.",
+        "jabatan": "Kepala Sekolah SMA (Akreditasi A)",
+        "isi": "Membidani kesuksesan siswa menembus SNBT, kedinasan, dan olimpiade sains tingkat nasional.",
+        "foto": null
+      },
+      {
+        "label": "SMP Methodist",
+        "label_kelas": "bg-primary text-on-primary",
+        "nama": "Hendra Simanjuntak, S.Pd.",
+        "jabatan": "Kepala Sekolah SMP (Akreditasi A)",
+        "isi": "Menitikberatkan pembentukan karakter remaja, kepanduan, dan literasi sains awal siswa SMP.",
+        "foto": null
+      },
+      {
+        "label": "SD Methodist",
+        "label_kelas": "bg-secondary text-on-secondary",
+        "nama": "Ester Nababan, S.Pd., M.Hum.",
+        "jabatan": "Kepala Sekolah SD (Akreditasi A)",
+        "isi": "Membangun fondasi logika berpikir numerasi, karakter santun, serta keceriaan anak dalam belajar.",
+        "foto": null
+      },
+      {
+        "label": "TK Methodist",
+        "label_kelas": "bg-tertiary-container text-on-tertiary",
+        "nama": "Grace Silalahi, S.Pd.",
+        "jabatan": "Kepala TK Methodist (Akreditasi A)",
+        "isi": "Mendidik anak usia dini lewat bermain kreatif, motorik sensorik, dan pengenalan kasih Tuhan.",
+        "foto": null
+      },
+      {
+        "label": "Kerohanian & BK",
+        "label_kelas": "bg-primary text-on-primary",
+        "nama": "Pdt. Jonathan Manurung, S.Th.",
+        "jabatan": "Koordinator Rohani & Karakter",
+        "isi": "Mendampingi konseling spiritual siswa, retret tahunan, dan peribadatan rutin sekolah.",
+        "foto": null
+      }
+    ]
+  },
+  "fasilitas": {
+    "label": "Galeri Khusus 2",
+    "judul": "Fasilitas Modern & Ekstrakurikuler",
+    "deskripsi": "Sarana penunjang berstandar tinggi yang menstimulasi riset, kreativitas, kebugaran raga, dan bakat multidimensi.",
+    "meta": "Smart Facilities Campus",
+    "item": [
+      {
+        "label": "Fasilitas",
+        "label_kelas": "bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-sm text-label-sm font-bold",
+        "ikon": "terminal",
+        "kategori": "Laboratorium Komputer & AI",
+        "kategori_kelas": "text-primary",
+        "judul": "Pusat Coding & Literasi Data",
+        "isi": "Dilengkapi 40+ unit PC generasi teranyar, koneksi serat optik 1 Gbps, dan kurikulum pengenalan kecerdasan buatan.",
+        "foto": null
+      },
+      {
+        "label": "Fasilitas",
+        "label_kelas": "bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-sm text-label-sm font-semibold",
+        "ikon": "science",
+        "kategori": "Laboratorium Sains Terpadu",
+        "kategori_kelas": "text-secondary",
+        "judul": "Praktikum Fisika, Kimia & Biologi",
+        "isi": "Standar keselamatan lengkap dengan fume hood, mikroskop digital, serta instrumen riset olimpiade sains.",
+        "foto": null
+      },
+      {
+        "label": "Fasilitas",
+        "label_kelas": "bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-sm text-label-sm font-semibold",
+        "ikon": "local_library",
+        "kategori": "Perpustakaan John Wesley",
+        "kategori_kelas": "text-primary",
+        "judul": "Koleksi 15.000+ Buku & E-Journal",
+        "isi": "Ruang baca santai ber-AC dengan ribuan literatur referensi Kristen, ensiklopedia dunia, dan akses e-library.",
+        "foto": null
+      },
+      {
+        "label": "Ekstrakurikuler",
+        "label_kelas": "bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold",
+        "ikon": "sports_basketball",
+        "kategori": "Gelanggang Olahraga & Basket",
+        "kategori_kelas": "text-secondary",
+        "judul": "Klub Basket Juara DBL & Futsal",
+        "isi": "Fasilitas standar turnamen dengan lantai vinyl peredam impak, ring hidrolik, dan tribun penonton terawat.",
+        "foto": null
+      },
+      {
+        "label": "Ekstrakurikuler",
+        "label_kelas": "bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold",
+        "ikon": "music_note",
+        "kategori": "Musik Ansambel & Paduan Suara",
+        "kategori_kelas": "text-primary",
+        "judul": "Harmoni Puji-Pujian & Klasik",
+        "isi": "Melatih kepekaan seni musik orkestra, biola, keyboard, serta grup paduan suara peraih penghargaan festival gerejawi.",
+        "foto": null
+      },
+      {
+        "label": "Ekstrakurikuler",
+        "label_kelas": "bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold",
+        "ikon": "precision_manufacturing",
+        "kategori": "Robotika & Pramuka Penegak",
+        "kategori_kelas": "text-tertiary-fixed-dim",
+        "judul": "Inovasi Robotik & Ketangkasan Lapangan",
+        "isi": "Kombinasi sains masa depan melalui mikrokontroler sensorik serta pembentukan kepemimpinan tanggap lewat Pramuka.",
+        "foto": null
+      }
+    ]
+  },
+  "kegiatan": {
+    "label": "Galeri Khusus 3",
+    "judul": "Kegiatan Akbar & Peristiwa Tahunan",
+    "deskripsi": "Momen kebersamaan, perayaan sukacita rohani, dan ekspresi pencapaian siswa di hadapan keluarga besar Methodist.",
+    "meta": "Tradisi Komunitas Kampus",
+    "utama": {
+      "label": "Tradisi Rohani",
+      "judul": "Ibadah Syukur Paskah & Natal Akbar Sekolah",
+      "isi": "Dihadiri lebih dari 1.500 jemaat sekolah, merayakan berkat keselamatan dalam kehangatan persaudaraan.",
+      "lokasi": "Auditorium Utama & Gereja Methodist Lubuk Pakam",
+      "frekuensi": "Setiap Semester",
+      "foto": null
+    },
+    "samping": {
+      "label": "Retret",
+      "judul": "Retret Pembinaan Karakter Remaja",
+      "isi": "Agenda wajib di dataran tinggi Berastagi untuk memurnikan motivasi belajar dan mempererat pertemanan sehat.",
+      "catatan": "Khusus Siswa SMP & SMA",
+      "foto": null
+    },
+    "bawah": [
+      {
+        "label": "Eksibisi",
+        "judul": "Methodist Science & Art Fest",
+        "isi": "Pameran tahunan karya rekayasa ilmiah siswa, kompetisi cerdas cermat sekabupaten Deli Serdang, dan galeri seni rupa.",
+        "foto": null
+      },
+      {
+        "label": "Outdoor",
+        "judul": "Field Trip Ekologi & Sains Terapan",
+        "isi": "Eksplorasi langsung pelestarian alam, pengujian kualitas air, serta kunjungan edukasi industri dan cagar biosfer.",
+        "foto": null
+      },
+      {
+        "label": "Alumni",
+        "judul": "Reuni Akbar & Bakti Alumni",
+        "isi": "Jalinan erat ribuan alumni lintas angkatan yang berkontribusi dalam program beasiswa asuh dan mentorship karir.",
+        "foto": null
+      }
+    ]
+  }
+}

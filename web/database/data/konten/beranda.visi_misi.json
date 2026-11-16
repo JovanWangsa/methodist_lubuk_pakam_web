@@ -1,0 +1,50 @@
+{
+  "kutipan": "“Do all the good you can, by all the means you can, in all the ways you can, in all the places you can, at all the times you can, to all the people you can, as long as ever you can.”",
+  "kutipan_sumber": "— John Wesley, Pendiri Gerakan Methodist Dunia",
+  "visi": {
+    "label": "Visi Luhur Sekolah",
+    "judul": "Menjadi Lembaga Pendidikan Kristen Unggul & Terpercaya",
+    "isi": "Mewujudkan komunitas pembelajar Kristiani yang setia pada nilai-nilai Injil, berkebajikan moral unggul, cerdas secara intelektual, adaptif terhadap kemajuan teknologi global, serta berdampak nyata bagi bangsa dan sesama manusia.",
+    "catatan": "Berdasarkan Firman Tuhan & Nilai Methodist Sejati"
+  },
+  "misi": {
+    "label": "Misi Strategis",
+    "judul": "Langkah Nyata Mendidik Generasi",
+    "poin": [
+      "Menyelenggarakan pendidikan holistik yang mengintegrasikan pengenalan akan Tuhan, ketajaman akal budi, dan keluhuran budi pekerti.",
+      "Menerapkan kurikulum bertaraf nasional dan internasional yang kontekstual, berbasis riset, sains saintifik, dan digital abad ke-21.",
+      "Mengembangkan potensi multitalenta siswa melalui pembinaan minat, seni budaya, kepemimpinan Kristen, dan ketangkasan olahraga.",
+      "Menciptakan lingkungan kampus inklusif, tertib, ramah anak, dan saling menopang dalam kasih persaudaraan Kristiani."
+    ]
+  },
+  "pilar": {
+    "judul": "4 Pilar Karakter & Kecakapan Siswa",
+    "deskripsi": "Panduan menyeluruh yang dihidupi di setiap ruang kelas, chapel, dan komunitas Perguruan Methodist.",
+    "item": [
+      {
+        "ikon": "auto_stories",
+        "ikon_kelas": "bg-primary text-on-primary",
+        "judul": "1. Iman & Ketakwaan",
+        "isi": "Menghayati nilai-nilai kasih, keadilan, kejujuran, dan kesalehan hidup sehari-hari yang berakar kuat dalam ajaran Kristus."
+      },
+      {
+        "ikon": "psychology",
+        "ikon_kelas": "bg-secondary-container text-on-secondary",
+        "judul": "2. Berpikir Kritis & Kreatif",
+        "isi": "Mampu memecahkan persoalan kompleks melalui analisa rasional, logika ilmiah mendalam, dan kreasi inovasi bernilai guna."
+      },
+      {
+        "ikon": "handshake",
+        "ikon_kelas": "bg-tertiary-container text-tertiary-fixed",
+        "judul": "3. Kolaborasi & Komunikasi",
+        "isi": "Kecakapan berdialog lintas budaya, berbahasa internasional (Inggris & Mandarin), serta kerja tim yang inklusif."
+      },
+      {
+        "ikon": "volunteer_activism",
+        "ikon_kelas": "bg-primary-container text-on-primary",
+        "judul": "4. Kepedulian Sosial",
+        "isi": "Jiwa kepemimpinan yang melayani sesama, kepekaan terhadap kebutuhan kaum rentan, dan kepedulian terhadap kelestarian ciptaan."
+      }
+    ]
+  }
+}

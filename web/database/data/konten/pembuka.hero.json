@@ -1,0 +1,40 @@
+{
+  "merek": "METHODIST",
+  "merek_label": "Lubuk Pakam",
+  "lencana": "Pendidikan Kristen Berwawasan Global Sejak 1952",
+  "judul_1": "Perguruan Methodist",
+  "judul_2": "Lubuk Pakam",
+  "deskripsi": "Membentuk generasi pemimpin beriman teguh, berintegritas kristiani, dan berprestasi unggul menyongsong peradaban dunia.",
+  "tombol_jelajahi": "Jelajahi Sekolah",
+  "tombol_brosur": "Unduh Brosur (PDF)",
+  "admisi_label": "Admisi",
+  "ppdb_label": "Penerimaan Siswa Baru",
+  "ppdb_teks": "T.A. 2025/2026 Gelombang I Telah Dibuka",
+  "menu": [
+    {
+      "teks": "Home",
+      "ikon": "home",
+      "rute": "beranda"
+    },
+    {
+      "teks": "Sejarah",
+      "ikon": "auto_stories",
+      "rute": "sejarah"
+    },
+    {
+      "teks": "Unit",
+      "ikon": "domain",
+      "rute": "unit.index"
+    },
+    {
+      "teks": "E-Learning",
+      "ikon": "devices",
+      "rute": "elearning"
+    },
+    {
+      "teks": "Daftar",
+      "ikon": "how_to_reg",
+      "rute": "ppdb.daftar"
+    }
+  ]
+}

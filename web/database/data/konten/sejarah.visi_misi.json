@@ -1,0 +1,60 @@
+{
+  "label": "Fondasi Teologis & Filosofis",
+  "judul": "Visi, Misi & Tujuan Institusi",
+  "deskripsi": "Pondasi tak tergoyahkan yang membimbing seluruh proses belajar-mengajar dan pembinaan generasi masa depan.",
+  "wesley_label": "Prinsip Hidup John Wesley",
+  "wesley_kutipan": "“Lakukanlah segala kebaikan semampu Anda, dengan segala sarana yang Anda miliki, melalui segala cara yang Anda bisa, di semua tempat yang Anda temui, kepada semua orang yang Anda jumpai, selama waktu yang masih Tuhan karuniakan.”",
+  "wesley_keterangan": "— Menjadi napas spiritual civitas akademika Perguruan Methodist Lubuk Pakam dalam melayani siswa, orang tua, dan masyarakat luas.",
+  "visi": {
+    "label": "Arah Pandang Utama",
+    "judul": "Visi Sekolah",
+    "isi": "“Menjadi Lembaga Pendidikan Kristen Unggulan Berakar Iman Teguh, Berkarakter Luhur Kristiani, Berbudaya Mutu Sains & Teknologi, serta Mampu Berkompetisi Secara Global.”",
+    "tag": [
+      "Iman Teguh",
+      "Karakter Luhur",
+      "Sains & AI",
+      "Wawasan Global"
+    ]
+  },
+  "misi": {
+    "label": "Langkah Konkret",
+    "judul": "Misi Sekolah",
+    "poin": [
+      "Menyelenggarakan proses pembelajaran integratif yang menempatkan nilai Alkitabiah dan budi pekerti sebagai fondasi perilaku sehari-hari.",
+      "Mengembangkan potensi kecerdasan intelektual, emosional, dan kinestetik murid lewat sains terapan, literasi bahasa internasional, dan teknologi komputasi.",
+      "Menyediakan lingkungan kampus yang aman, inklusif, ramah anak, serta sarat fasilitas modern guna mendukung eksplorasi talenta tanpa batas.",
+      "Membangun jejaring kolaborasi akademis dan kepedulian sosial bagi pemecahan masalah nyata di masyarakat."
+    ]
+  },
+  "tujuan": {
+    "label": "Target Capaian Peserta Didik",
+    "judul": "Tujuan Pendidikan & Profil Lulusan Methodist",
+    "deskripsi": "Setiap lulusan dari jenjang TK hingga SMA dipersiapkan dengan 4 pilar kompetensi utama:",
+    "item": [
+      {
+        "ikon": "volunteer_activism",
+        "ikon_kelas": "bg-surface-container text-primary",
+        "judul": "Spiritualitas Luhur",
+        "isi": "Memiliki kasih tulus, integritas moral Kristiani yang tangguh, serta disiplin rohani yang konsisten menghadapi godaan zaman."
+      },
+      {
+        "ikon": "psychology",
+        "ikon_kelas": "bg-secondary-fixed text-on-secondary-fixed",
+        "judul": "Keunggulan Nalar Sains",
+        "isi": "Kritis, berdaya cipta tinggi, dan adaptif terhadap lonjakan teknologi, informatika, riset, serta pemecahan masalah analitis."
+      },
+      {
+        "ikon": "public",
+        "ikon_kelas": "bg-surface-container text-primary",
+        "judul": "Wawasan Global",
+        "isi": "Mahir berkomunikasi dalam Bahasa Indonesia dan Bahasa Inggris, menghargai keberagaman, dan siap bersaing di kancah internasional."
+      },
+      {
+        "ikon": "diversity_3",
+        "ikon_kelas": "bg-tertiary-fixed text-on-tertiary-fixed",
+        "judul": "Kepemimpinan Pelayan",
+        "isi": "Berani memimpin dengan teladan rendah hati (servant leadership), bersimpati tinggi, dan aktif mengabdi bagi kemajuan sesama."
+      }
+    ]
+  }
+}

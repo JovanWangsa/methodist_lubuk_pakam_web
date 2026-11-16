@@ -1,0 +1,5 @@
+# Rahasia dan dependensi tidak pernah masuk repository
+.env
+node_modules/
+.DS_Store
+Thumbs.db

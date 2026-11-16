@@ -1,0 +1,55 @@
+{
+  "label": "Jaringan Global & Nasional",
+  "judul": "Kemitraan Strategis Pendidikan",
+  "deskripsi": "Kerjasama berkesinambungan dengan universitas top dunia, lembaga sertifikasi internasional, dan industri teknologi untuk jaminan mutu kelulusan.",
+  "item": [
+    {
+      "singkatan": "ITB",
+      "kelas": "bg-primary-container/10 text-primary",
+      "nama": "Institut Teknologi Bandung",
+      "keterangan": "Jalur Prestasi Riset & Sains"
+    },
+    {
+      "singkatan": "UI",
+      "kelas": "bg-secondary-container/10 text-secondary",
+      "nama": "Universitas Indonesia",
+      "keterangan": "Kemitraan SNBP & Talenta"
+    },
+    {
+      "singkatan": "UGM",
+      "kelas": "bg-primary-container/10 text-primary",
+      "nama": "Universitas Gadjah Mada",
+      "keterangan": "Pengembangan Kompetensi Siswa"
+    },
+    {
+      "singkatan": "USU",
+      "kelas": "bg-tertiary-container/10 text-tertiary-container",
+      "nama": "Universitas Sumatera Utara",
+      "keterangan": "Kerjasama Regional Utama"
+    },
+    {
+      "singkatan": "NTUST",
+      "kelas": "bg-secondary-fixed text-on-secondary-fixed",
+      "nama": "Taiwan Tech (NTUST)",
+      "keterangan": "Beasiswa Kuliah Internasional"
+    },
+    {
+      "singkatan": "Go8",
+      "kelas": "bg-primary-container/10 text-primary",
+      "nama": "Group of Eight Australia",
+      "keterangan": "Jalur Pathway & Matrikulasi"
+    },
+    {
+      "singkatan": "CAM",
+      "kelas": "bg-surface-container-highest text-primary",
+      "nama": "Cambridge Assessment",
+      "keterangan": "Standar Kemahiran Bahasa Inggris"
+    },
+    {
+      "singkatan": "STEM",
+      "kelas": "bg-tertiary-fixed text-tertiary",
+      "nama": "EdTech Robotika & AI",
+      "keterangan": "Kurikulum Praktikum Terapan"
+    }
+  ]
+}

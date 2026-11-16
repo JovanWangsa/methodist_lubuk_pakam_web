@@ -1,0 +1,53 @@
+{
+  "label": "Sinkronisasi Langsung Media Sosial",
+  "judul": "Kabar & Aktivitas Terkini",
+  "deskripsi": "Update harian kegiatan siswa langsung dari akun Instagram resmi",
+  "tombol": "Kunjungi Profil Resmi",
+  "contoh": [
+    {
+      "tag": "Sains",
+      "tag_ikon": "biotech",
+      "tag_warna": "text-primary",
+      "caption": "Eksperimen seru kimia dasar kelas IX: Mengamati perubahan titrasi asam-basa dan reaksi larutan di Lab Kimia Methodist! 🔬🧪 #MethodistLP #SainsSeru",
+      "suka": "342",
+      "komentar": "28",
+      "waktu": "2 jam lalu"
+    },
+    {
+      "tag": "DBL Cup",
+      "tag_ikon": "sports_basketball",
+      "tag_warna": "text-secondary",
+      "caption": "CHAMPIONS! Tim Basket SMA Methodist Lubuk Pakam berhasil meraih Juara 1 DBL Regional Series Sumatera Utara. Bangga sekali! 🏆🏀 #MethodistJuara",
+      "suka": "894",
+      "komentar": "105",
+      "waktu": "Kemarin"
+    },
+    {
+      "tag": "Retret",
+      "tag_ikon": "volunteer_activism",
+      "tag_warna": "text-tertiary",
+      "caption": "Retret Rohani Siswa Kelas XII di Sibolangit: \"Berakar dalam Kasih, Bertumbuh dalam Pengharapan\". Saat hening dan persekutuan penuh damai. ✝️🙏",
+      "suka": "521",
+      "komentar": "42",
+      "waktu": "3 hari lalu"
+    },
+    {
+      "tag": "Robotika",
+      "tag_ikon": "precision_manufacturing",
+      "tag_warna": "text-primary",
+      "caption": "Tim Robotika Methodist lolos ke Babak Final Indonesia Robotic Olympiad dengan proyek Smart Agro Sensor berbasis IoT. Terus melaju! 🤖⚡",
+      "suka": "418",
+      "komentar": "37",
+      "waktu": "4 hari lalu"
+    },
+    {
+      "tag": "Galeri Seni",
+      "tag_ikon": "palette",
+      "tag_warna": "text-secondary",
+      "caption": "Pameran Karya Seni Rupa Tahunan \"Warna Kasih Nusantara\". Lebih dari 60 karya lukis dan sketsa karya siswa dipajang di aula utama. 🎨✨",
+      "suka": "395",
+      "komentar": "19",
+      "waktu": "6 hari lalu"
+    }
+  ]
+}

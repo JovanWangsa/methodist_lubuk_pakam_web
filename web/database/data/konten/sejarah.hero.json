@@ -1,0 +1,31 @@
+{
+  "label": "Warisan & Dedikasi 6 Dekade",
+  "judul_1": "Menyemai Karakter,",
+  "judul_aksen": "Menerangi Negeri",
+  "judul_2": "Sejak 1958 di Lubuk Pakam.",
+  "deskripsi": "Berakar kuat dalam kasih Kristiani dan integritas moral. Menapaki jejak keteguhan para pendahulu dalam mengabdi dan mendidik tunas bangsa di bumi Deli Serdang menuju pentas global.",
+  "tombol_1": "Eksplorasi Sejarah",
+  "tombol_2": "Biografi Pendirian",
+  "statistik": [
+    {
+      "nilai": "67+",
+      "label": "Tahun Pelayanan",
+      "kelas": "text-secondary-fixed"
+    },
+    {
+      "nilai": "12.000+",
+      "label": "Alumni Berprestasi",
+      "kelas": "text-on-primary"
+    },
+    {
+      "nilai": "4 Unit",
+      "label": "Akreditasi Unggul 'A'",
+      "kelas": "text-tertiary-fixed"
+    }
+  ],
+  "kartu_label": "Jl. Gereja No. 17",
+  "kartu_judul": "Saksi Bisu Dedikasi Kasih",
+  "kartu_isi": "Dari satu bilik kayu sederhana menjadi kawah candradimuka generasi berprestasi.",
+  "kutipan": "“Do all the good you can, by all the means you can, in all the ways you can.”",
+  "kutipan_sumber": "— John Wesley (1703 - 1791)"
+}

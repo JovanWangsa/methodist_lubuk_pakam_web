@@ -1,0 +1,42 @@
+[
+  {
+    "ikon": "history_edu",
+    "ikon_kelas": "bg-primary-container text-on-primary",
+    "nilai": "70+",
+    "label": "Tahun Melayani",
+    "deskripsi": "Dedikasi pendidikan sejak masa perintisan di Deli Serdang",
+    "kartu_kelas": "p-space-md rounded-xl bg-surface-container-low transition-all hover:-translate-y-1 hover:shadow-lg"
+  },
+  {
+    "ikon": "domain",
+    "ikon_kelas": "bg-secondary-container text-on-secondary",
+    "nilai": "4 Jenjang",
+    "label": "Terpadu KB/TK - SMA",
+    "deskripsi": "Satu ekosistem terintegrasi dari usia dini hingga perguruan tinggi",
+    "kartu_kelas": "p-space-md rounded-xl bg-surface-container-low transition-all hover:-translate-y-1 hover:shadow-lg"
+  },
+  {
+    "ikon": "badge",
+    "ikon_kelas": "bg-tertiary-container text-tertiary-fixed",
+    "nilai": "100%",
+    "label": "Guru Tersertifikasi",
+    "deskripsi": "Pendidik profesional berkualifikasi S1/S2 bersertifikat pendidik",
+    "kartu_kelas": "p-space-md rounded-xl bg-surface-container-low transition-all hover:-translate-y-1 hover:shadow-lg"
+  },
+  {
+    "ikon": "public",
+    "ikon_kelas": "bg-primary-container text-on-primary",
+    "nilai": "4.800+",
+    "label": "Alumni Global",
+    "deskripsi": "Jejaring lulusan di mancanegara, pemerintahan, dan korporasi",
+    "kartu_kelas": "p-space-md rounded-xl bg-surface-container-low transition-all hover:-translate-y-1 hover:shadow-lg"
+  },
+  {
+    "ikon": "verified",
+    "ikon_kelas": "bg-secondary-container text-on-secondary",
+    "nilai": "Akreditasi A",
+    "label": "Unggul BAN-S/M",
+    "deskripsi": "Pengakuan mutu pendidikan terbaik dari badan akreditasi nasional",
+    "kartu_kelas": "col-span-2 lg:col-span-1 p-space-md rounded-xl bg-surface-container-high transition-all hover:-translate-y-1 hover:shadow-lg"
+  }
+]

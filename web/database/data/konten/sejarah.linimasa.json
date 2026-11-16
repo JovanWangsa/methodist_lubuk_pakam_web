@@ -1,0 +1,83 @@
+{
+  "label": "Kronik Sejarah 1958 - Kini",
+  "judul": "Linimasa Langkah Iman & Prestasi",
+  "deskripsi": "Menyusuri setiap babak penting transformasi Perguruan Methodist Lubuk Pakam dari masa ke masa.",
+  "item": [
+    {
+      "sisi": "kiri",
+      "penanda": "1",
+      "penanda_kelas": "w-10 h-10 rounded-full bg-primary flex items-center justify-center text-on-primary",
+      "label": "Tahun 1958",
+      "label_kelas": "bg-secondary-fixed text-on-secondary-fixed",
+      "judul": "Peletakan Batu Pertama & Bilik Belajar",
+      "isi": "Gereja Methodist Indonesia Lubuk Pakam meresmikan kelas dasar perdana di Jalan Gereja No. 17. Diprakarsai oleh majelis gereja dan misionaris untuk menyediakan akses pendidikan holistik bagi anak-anak perkebunan dan kota.",
+      "catatan_ikon": "cottage",
+      "catatan": "Pondasi Nilai Iman Kristiani",
+      "catatan_kelas": "text-secondary",
+      "tahun_besar": "1958",
+      "tahun_besar_kelas": "text-surface-container-highest",
+      "kartu_kelas": "shadow-sm hover:shadow-md transition-shadow"
+    },
+    {
+      "sisi": "kanan",
+      "penanda": "2",
+      "penanda_kelas": "w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center text-on-secondary-container",
+      "label": "Tahun 1972 - 1980",
+      "label_kelas": "bg-secondary-fixed text-on-secondary-fixed",
+      "judul": "Pembangunan Gedung Utama Permanen & Unit SMP",
+      "isi": "Gedung bata dua lantai didirikan menggantikan ruang kayu semipermanen. Pembukaan SMP Methodist menampung ratusan lulusan SD, memperluas cakupan ekstrakurikuler musik, kepanduan, dan olahraga basket.",
+      "catatan_ikon": "apartment",
+      "catatan": "Ekspansi Sarana Kampus",
+      "catatan_kelas": "text-primary",
+      "tahun_besar": "1972",
+      "tahun_besar_kelas": "text-surface-container-highest",
+      "kartu_kelas": "shadow-sm hover:shadow-md transition-shadow"
+    },
+    {
+      "sisi": "kiri",
+      "penanda": "3",
+      "penanda_kelas": "w-10 h-10 rounded-full bg-primary flex items-center justify-center text-on-primary",
+      "label": "Tahun 1989",
+      "label_kelas": "bg-secondary-fixed text-on-secondary-fixed",
+      "judul": "Lahirnya SMA Methodist: Sayap Menuju Universitas",
+      "isi": "Guna merespons kebutuhan jenjang menengah atas yang berbobot di Deli Serdang, SMA Methodist Lubuk Pakam resmi beroperasi dengan fokus sains, bahasa Inggris intensif, dan kepemimpinan.",
+      "catatan_ikon": "school",
+      "catatan": "Pembentukan Jalur Prestasi Perguruan Tinggi",
+      "catatan_kelas": "text-secondary",
+      "tahun_besar": "1989",
+      "tahun_besar_kelas": "text-surface-container-highest",
+      "kartu_kelas": "shadow-sm hover:shadow-md transition-shadow"
+    },
+    {
+      "sisi": "kanan",
+      "penanda": "4",
+      "penanda_kelas": "w-10 h-10 rounded-full bg-tertiary-container flex items-center justify-center text-on-tertiary",
+      "label": "Tahun 2005 - 2015",
+      "label_kelas": "bg-secondary-fixed text-on-secondary-fixed",
+      "judul": "Penobatan Akreditasi A (Unggul) Seluruh Jenjang",
+      "isi": "Secara simultan, seluruh unit dari TK, SD, SMP, hingga SMA meraih peringkat Akreditasi A dari BAN-S/M dengan nilai sangat memuaskan, menandai pengakuan standar mutu nasional tertinggi.",
+      "catatan_ikon": "stars",
+      "catatan": "Standar Pendidikan Emas",
+      "catatan_kelas": "text-tertiary-fixed-dim",
+      "tahun_besar": "2005",
+      "tahun_besar_kelas": "text-surface-container-highest",
+      "kartu_kelas": "shadow-sm hover:shadow-md transition-shadow"
+    },
+    {
+      "sisi": "kiri",
+      "penanda_ikon": "rocket_launch",
+      "penanda_kelas": "w-12 h-12 rounded-full bg-secondary text-on-secondary flex items-center justify-center",
+      "label": "2020 - Kini",
+      "label_kelas": "bg-primary-container text-on-primary",
+      "judul": "Era Transformasi Digital & Smart Campus Modern",
+      "isi": "Integrasi platform E-Learning berbasis LMS mandiri, laboratorium kecerdasan buatan (AI) & robotika, laboratorium sains berstandar internasional, serta kurikulum bilingual berwawasan global.",
+      "catatan_ikon": "devices",
+      "catatan": "Smart School Terdepan di Sumatera Utara",
+      "catatan_kelas": "text-primary",
+      "tahun_besar": "Masa Depan",
+      "tahun_besar_kelas": "text-secondary",
+      "kartu_kelas": "shadow-md",
+      "penanda_bayangan": "shadow-xl"
+    }
+  ]
+}

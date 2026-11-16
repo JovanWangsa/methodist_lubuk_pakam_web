@@ -1,0 +1,52 @@
+{
+  "unit": [
+    {
+      "teks": "KB - TK Methodist",
+      "rute": "unit.index"
+    },
+    {
+      "teks": "SD Methodist Lubuk Pakam",
+      "rute": "unit.index"
+    },
+    {
+      "teks": "SMP Methodist Lubuk Pakam",
+      "rute": "unit.index"
+    },
+    {
+      "teks": "SMA Methodist Lubuk Pakam",
+      "rute": "unit.index"
+    }
+  ],
+  "layanan": [
+    {
+      "teks": "Pendaftaran PPDB Baru",
+      "rute": "ppdb.daftar"
+    },
+    {
+      "teks": "Portal E-Learning Siswa",
+      "rute": "elearning"
+    },
+    {
+      "teks": "Profil & Sejarah Sekolah",
+      "rute": "sejarah"
+    },
+    {
+      "teks": "Kalender Akademik",
+      "rute": "beranda"
+    }
+  ],
+  "tautan_bawah": [
+    {
+      "teks": "Kebijakan Privasi",
+      "url": "#"
+    },
+    {
+      "teks": "Syarat & Ketentuan",
+      "url": "#"
+    },
+    {
+      "teks": "Peta Situs",
+      "url": "#"
+    }
+  ]
+}

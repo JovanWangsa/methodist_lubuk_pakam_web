@@ -1,0 +1,243 @@
+[
+  {
+    "lokasi": "pembuka",
+    "urutan": 1,
+    "judul": "Gedung Utama & Kawasan Kampus",
+    "gambar": null,
+    "alt": "Gedung Utama & Kawasan Kampus",
+    "atribut": null
+  },
+  {
+    "lokasi": "pembuka",
+    "urutan": 2,
+    "judul": "Ibadah Chapel Mingguan Siswa & Guru",
+    "gambar": null,
+    "alt": "Ibadah Chapel Mingguan Siswa & Guru",
+    "atribut": null
+  },
+  {
+    "lokasi": "pembuka",
+    "urutan": 3,
+    "judul": "Laboratorium Robotika & AI Modern",
+    "gambar": null,
+    "alt": "Laboratorium Robotika & AI Modern",
+    "atribut": null
+  },
+  {
+    "lokasi": "pembuka",
+    "urutan": 4,
+    "judul": "Tim Basket DBL & Sport Hall Internasional",
+    "gambar": null,
+    "alt": "Tim Basket DBL & Sport Hall Internasional",
+    "atribut": null
+  },
+  {
+    "lokasi": "pembuka",
+    "urutan": 5,
+    "judul": "Galeri Seni Lukis & Kreativitas Siswa",
+    "gambar": null,
+    "alt": "Galeri Seni Lukis & Kreativitas Siswa",
+    "atribut": null
+  },
+  {
+    "lokasi": "pembuka",
+    "urutan": 6,
+    "judul": "Perpustakaan Multimedia Berbasis Digital",
+    "gambar": null,
+    "alt": "Perpustakaan Multimedia Berbasis Digital",
+    "atribut": null
+  },
+  {
+    "lokasi": "pembuka",
+    "urutan": 7,
+    "judul": "Prestasi Juara Olimpiade Sains & Riset",
+    "gambar": null,
+    "alt": "Prestasi Juara Olimpiade Sains & Riset",
+    "atribut": null
+  },
+  {
+    "lokasi": "pembuka",
+    "urutan": 8,
+    "judul": "Marching Band & Harmoni Musik Methodist",
+    "gambar": null,
+    "alt": "Marching Band & Harmoni Musik Methodist",
+    "atribut": null
+  },
+  {
+    "lokasi": "pembuka",
+    "urutan": 9,
+    "judul": "Taman Bermain Edukatif TK & SD Methodist",
+    "gambar": null,
+    "alt": "Taman Bermain Edukatif TK & SD Methodist",
+    "atribut": null
+  },
+  {
+    "lokasi": "pembuka",
+    "urutan": 10,
+    "judul": "Laboratorium Kimia & Sains Terakreditasi",
+    "gambar": null,
+    "alt": "Laboratorium Kimia & Sains Terakreditasi",
+    "atribut": null
+  },
+  {
+    "lokasi": "beranda",
+    "urutan": 1,
+    "judul": "Membangun Karakter Iman & Keunggulan Global",
+    "gambar": null,
+    "alt": "Membangun Karakter Iman & Keunggulan Global",
+    "atribut": {
+      "tag": "h1",
+      "judul_kelas": "font-display-hero text-display-hero text-on-primary mb-space-md leading-tight",
+      "lencana": {
+        "teks": "Kampus Unggul Berakreditasi A",
+        "ikon": "verified",
+        "kelas": "inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-secondary-container text-on-secondary font-label-md text-label-md uppercase tracking-wider mb-space-md shadow-md"
+      },
+      "deskripsi": "Perguruan Methodist Lubuk Pakam mendidik generasi tangguh, berintegritas tinggi, dan berdaya saing internasional berlandaskan kasih Kristus.",
+      "tombol": [
+        {
+          "jenis": "daftar",
+          "teks": "Daftar PPDB Siswa Baru",
+          "ikon": "how_to_reg",
+          "kelas": "inline-flex items-center gap-space-xs px-space-lg py-3 rounded-lg bg-secondary-container text-on-secondary font-label-lg text-label-lg shadow-xl hover:brightness-110 transition-transform hover:-translate-y-0.5"
+        },
+        {
+          "jenis": "katalog",
+          "teks": "Unduh Katalog Sekolah (PDF)",
+          "ikon": "download",
+          "kelas": "inline-flex items-center gap-space-xs px-space-lg py-3 rounded-lg bg-surface-container-lowest/15 backdrop-blur-md text-on-primary font-label-lg text-label-lg hover:bg-surface-container-lowest/25 transition-colors"
+        },
+        {
+          "jenis": "wa",
+          "teks": "Admin: +62 812-6500-8822",
+          "ikon": "chat",
+          "kelas": "inline-flex items-center gap-space-xs px-space-md py-3 rounded-lg bg-tertiary-container text-tertiary-fixed font-label-lg text-label-lg hover:brightness-125 transition-all"
+        }
+      ]
+    }
+  },
+  {
+    "lokasi": "beranda",
+    "urutan": 2,
+    "judul": "Inovasi Pembelajaran Digital Abad ke-21",
+    "gambar": null,
+    "alt": "Inovasi Pembelajaran Digital Abad ke-21",
+    "atribut": {
+      "tag": "h2",
+      "judul_kelas": "font-display-hero text-display-hero text-on-primary mb-space-md",
+      "lencana": {
+        "teks": "Fasilitas STEM & Robotika",
+        "ikon": "smart_toy",
+        "kelas": "inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-surface-container-highest text-primary font-label-md text-label-md uppercase tracking-wider mb-space-md"
+      },
+      "deskripsi": "Laboratorium komputasi tingkat lanjut, kit kecerdasan buatan, dan kurikulum sains terapan untuk mengasah daya kritis masa depan.",
+      "tombol": [
+        {
+          "jenis": "daftar",
+          "teks": "Daftar PPDB Siswa Baru",
+          "ikon": "how_to_reg",
+          "kelas": "inline-flex items-center gap-space-xs px-space-lg py-3 rounded-lg bg-secondary-container text-on-secondary font-label-lg text-label-lg shadow-xl hover:brightness-110 transition-transform hover:-translate-y-0.5"
+        },
+        {
+          "jenis": "katalog",
+          "teks": "Unduh Katalog Sekolah (PDF)",
+          "ikon": "download",
+          "kelas": "inline-flex items-center gap-space-xs px-space-lg py-3 rounded-lg bg-surface-container-lowest/15 backdrop-blur-md text-on-primary font-label-lg text-label-lg hover:bg-surface-container-lowest/25 transition-colors"
+        }
+      ]
+    }
+  },
+  {
+    "lokasi": "beranda",
+    "urutan": 3,
+    "judul": "Fondasi Iman Kristiani yang Kokoh",
+    "gambar": null,
+    "alt": "Fondasi Iman Kristiani yang Kokoh",
+    "atribut": {
+      "tag": "h2",
+      "judul_kelas": "font-display-hero text-display-hero text-on-primary mb-space-md",
+      "lencana": {
+        "teks": "Pembangunan Karakter Spiritual",
+        "ikon": "church",
+        "kelas": "inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md uppercase tracking-wider mb-space-md"
+      },
+      "deskripsi": "Ibadah chapel teratur, bimbingan pastoral terpadu, dan penanaman integritas moral membina kepribadian yang welas asih dan melayani sesama.",
+      "tombol": [
+        {
+          "jenis": "daftar",
+          "teks": "Daftar PPDB Siswa Baru",
+          "ikon": null,
+          "kelas": "inline-flex items-center gap-space-xs px-space-lg py-3 rounded-lg bg-secondary-container text-on-secondary font-label-lg text-label-lg shadow-xl hover:brightness-110 transition-transform"
+        },
+        {
+          "jenis": "wa",
+          "teks": "WhatsApp: +62 812-6500-8822",
+          "ikon": null,
+          "kelas": "inline-flex items-center gap-space-xs px-space-lg py-3 rounded-lg bg-tertiary-container text-tertiary-fixed font-label-lg text-label-lg hover:brightness-125 transition-all"
+        }
+      ]
+    }
+  },
+  {
+    "lokasi": "beranda",
+    "urutan": 4,
+    "judul": "Tradisi Juara Sains, Seni & Olahraga",
+    "gambar": null,
+    "alt": "Tradisi Juara Sains, Seni & Olahraga",
+    "atribut": {
+      "tag": "h2",
+      "judul_kelas": "font-display-hero text-display-hero text-on-primary mb-space-md",
+      "lencana": {
+        "teks": "Prestasi Akademik Nasional",
+        "ikon": "military_tech",
+        "kelas": "inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-surface-container-highest text-primary font-label-md text-label-md uppercase tracking-wider mb-space-md"
+      },
+      "deskripsi": "Melalui pembinaan intensif dan bimbingan guru ahli, siswa meraih puluhan medali tingkat kabupaten, provinsi, hingga panggung nasional.",
+      "tombol": [
+        {
+          "jenis": "daftar",
+          "teks": "Daftar PPDB Siswa Baru",
+          "ikon": null,
+          "kelas": "inline-flex items-center gap-space-xs px-space-lg py-3 rounded-lg bg-secondary-container text-on-secondary font-label-lg text-label-lg shadow-xl"
+        },
+        {
+          "jenis": "katalog",
+          "teks": "Unduh Brosur Lengkap",
+          "ikon": null,
+          "kelas": "inline-flex items-center gap-space-xs px-space-lg py-3 rounded-lg bg-surface-container-lowest/15 backdrop-blur-md text-on-primary font-label-lg text-label-lg"
+        }
+      ]
+    }
+  },
+  {
+    "lokasi": "beranda",
+    "urutan": 5,
+    "judul": "Eksplorasi Potensi Tanpa Batas",
+    "gambar": null,
+    "alt": "Eksplorasi Potensi Tanpa Batas",
+    "atribut": {
+      "tag": "h2",
+      "judul_kelas": "font-display-hero text-display-hero text-on-primary mb-space-md",
+      "lencana": {
+        "teks": "Pengembangan Bakat Holistik",
+        "ikon": "sports_basketball",
+        "kelas": "inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-secondary-container text-on-secondary font-label-md text-label-md uppercase tracking-wider mb-space-md"
+      },
+      "deskripsi": "Dari lapangan DBL, ensemble musik, marching band hingga pameran seni rupa, setiap talenta diasah secara optimal dan penuh apresiasi.",
+      "tombol": [
+        {
+          "jenis": "daftar",
+          "teks": "Daftar PPDB Siswa Baru",
+          "ikon": null,
+          "kelas": "inline-flex items-center gap-space-xs px-space-lg py-3 rounded-lg bg-secondary-container text-on-secondary font-label-lg text-label-lg"
+        },
+        {
+          "jenis": "wa",
+          "teks": "Hubungi Admisi",
+          "ikon": null,
+          "kelas": "inline-flex items-center gap-space-xs px-space-lg py-3 rounded-lg bg-tertiary-container text-tertiary-fixed font-label-lg text-label-lg"
+        }
+      ]
+    }
+  }
+]

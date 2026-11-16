@@ -1,0 +1,175 @@
+{
+  "label": "Akuntabilitas Berbasis Bukti",
+  "judul": "School in Numbers",
+  "deskripsi": "Hasil nyata komitmen pendidikan berkualitas yang terukur secara ilmiah, transparan, dan berdampak bagi masa depan setiap anak didik.",
+  "lulusan": {
+    "judul": "Tingkat Penetrasi Pendidikan Tinggi",
+    "sub": "Lulusan SMA diterima di PTN Favorit & Kampus Dunia",
+    "persen": "98%",
+    "deskripsi": "Berdasarkan rekam jejak seleksi nasional SNBP, SNBT, mandiri PTN (ITB, UI, UGM, USU, Unair) serta perguruan tinggi mitra terkemuka di Taiwan, Australia, dan Singapura.",
+    "bar": [
+      {
+        "label": "PTN Unggulan Indonesia (ITB, UI, UGM, USU, Unair, Undip)",
+        "persen": 64,
+        "teks_kelas": "text-primary",
+        "bar_kelas": "bg-primary"
+      },
+      {
+        "label": "Kampus Luar Negeri (Taiwan Tech, NTU, Australia Go8, Curtin)",
+        "persen": 22,
+        "teks_kelas": "text-secondary",
+        "bar_kelas": "bg-secondary-container"
+      },
+      {
+        "label": "PTS Terakreditasi Unggul & Beasiswa Prestasi",
+        "persen": 12,
+        "teks_kelas": "text-tertiary-container",
+        "bar_kelas": "bg-tertiary-container"
+      }
+    ],
+    "verifikasi": "Terverifikasi Biro Konseling Karir & Alumni",
+    "tahun": "Tahun Ajaran 2023/2024"
+  },
+  "medali": {
+    "judul": "Medali Olimpiade Sains",
+    "sub": "OSN, KSM & Lomba Internasional (2020 - 2024)",
+    "sumbu": [
+      {
+        "teks": "40",
+        "y": 24
+      },
+      {
+        "teks": "30",
+        "y": 64
+      },
+      {
+        "teks": "20",
+        "y": 104
+      },
+      {
+        "teks": "10",
+        "y": 144
+      }
+    ],
+    "batang": [
+      {
+        "tahun": "2020",
+        "label": "18",
+        "x": 45,
+        "latar": [
+          68,
+          72,
+          "#eaedff"
+        ],
+        "isi": [
+          80,
+          60,
+          "#00236f",
+          "0.8"
+        ],
+        "label_y": 74,
+        "label_warna": "#00236f",
+        "label_ukuran": 10,
+        "label_tebal": 700
+      },
+      {
+        "tahun": "2021",
+        "label": "24",
+        "x": 105,
+        "latar": [
+          44,
+          96,
+          "#eaedff"
+        ],
+        "isi": [
+          60,
+          80,
+          "#00236f",
+          "0.85"
+        ],
+        "label_y": 54,
+        "label_warna": "#00236f",
+        "label_ukuran": 10,
+        "label_tebal": 700
+      },
+      {
+        "tahun": "2022",
+        "label": "29",
+        "x": 165,
+        "latar": [
+          24,
+          116,
+          "#eaedff"
+        ],
+        "isi": [
+          42,
+          98,
+          "#00236f",
+          "0.9"
+        ],
+        "label_y": 36,
+        "label_warna": "#00236f",
+        "label_ukuran": 10,
+        "label_tebal": 700
+      },
+      {
+        "tahun": "2023",
+        "label": "35",
+        "x": 225,
+        "latar": [
+          12,
+          128,
+          "#ffdcc3"
+        ],
+        "isi": [
+          26,
+          114,
+          "#fe932c",
+          null
+        ],
+        "label_y": 20,
+        "label_warna": "#904d00",
+        "label_ukuran": 10,
+        "label_tebal": 700
+      },
+      {
+        "tahun": "2024",
+        "label": "43★",
+        "x": 285,
+        "latar": [
+          4,
+          136,
+          "#ffdcc3"
+        ],
+        "isi": [
+          10,
+          130,
+          "#fe932c",
+          null
+        ],
+        "label_y": 6,
+        "label_warna": "#904d00",
+        "label_ukuran": 11,
+        "label_tebal": 800
+      }
+    ],
+    "ringkasan_kiri": "Peningkatan 138%",
+    "ringkasan_kanan": "Total 149 Medali 5 Tahun Terakhir"
+  },
+  "kartu_bawah": [
+    {
+      "ikon": "groups",
+      "ikon_kelas": "bg-primary-container/10 text-primary",
+      "nilai": "1 : 14",
+      "label": "Rasio Guru-Murid",
+      "deskripsi": "Pendekatan personal terfokus. Setiap siswa menerima perhatian individual mendalam untuk perkembangan akademik, psikososial, dan spiritual secara presisi."
+    },
+    {
+      "ikon": "menu_book",
+      "ikon_kelas": "bg-secondary-container/10 text-secondary",
+      "nilai": "12.000+",
+      "label": "Literasi Digital & Koleksi",
+      "deskripsi": "Akses e-library terintegrasi 24 jam, ribuan jurnal ilmiah bereputasi, buku referensi cetak, serta portal multimedia yang menstimulasi riset mandiri sejak dini."
+    }
+  ]
+}
