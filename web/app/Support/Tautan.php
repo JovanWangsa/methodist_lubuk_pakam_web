@@ -19,6 +19,15 @@ class Tautan
     }
 
     /**
+     * Tautan panduan pendaftaran online dari pengaturan panduan_daftar_url.
+     * Selama belum diisi, tombol diarahkan ke halaman Daftar.
+     */
+    public static function panduan(): string
+    {
+        return Setting::ambil('panduan_daftar_url') ?: route('ppdb.daftar');
+    }
+
+    /**
      * Tujuan tombol menurut jenisnya di data konten: daftar, katalog, atau wa.
      */
     public static function untuk(string $jenis): string
@@ -26,6 +35,7 @@ class Tautan
         return match ($jenis) {
             'daftar' => route('ppdb.daftar'),
             'katalog' => self::katalog(),
+            'panduan' => self::panduan(),
             'wa' => self::whatsapp(),
             default => '#',
         };

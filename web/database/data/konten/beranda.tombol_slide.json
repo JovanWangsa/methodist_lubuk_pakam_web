@@ -1,0 +1,22 @@
+{
+  "tombol": [
+    {
+      "jenis": "daftar",
+      "teks": "Daftar Online",
+      "ikon": "how_to_reg",
+      "kelas": "inline-flex items-center gap-space-xs px-space-lg py-3 rounded-lg bg-secondary-container text-on-secondary font-label-lg text-label-lg shadow-xl hover:brightness-110 transition-transform hover:-translate-y-0.5"
+    },
+    {
+      "jenis": "katalog",
+      "teks": "Katalog Sekolah",
+      "ikon": "download",
+      "kelas": "inline-flex items-center gap-space-xs px-space-lg py-3 rounded-lg bg-surface-container-lowest/15 backdrop-blur-md text-on-primary font-label-lg text-label-lg hover:bg-surface-container-lowest/25 transition-colors"
+    },
+    {
+      "jenis": "wa",
+      "teks": "Chat Admin",
+      "ikon": "chat",
+      "kelas": "inline-flex items-center gap-space-xs px-space-md py-3 rounded-lg bg-tertiary-container text-tertiary-fixed font-label-lg text-label-lg hover:brightness-125 transition-all"
+    }
+  ]
+}

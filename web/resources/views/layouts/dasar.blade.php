@@ -21,6 +21,7 @@
 </head>
 <body class="@yield('body_kelas', 'bg-background font-body-md text-body-md text-on-surface antialiased')">
 @yield('isi')
+<x-tombol-gulir />
 @stack('scripts')
 </body>
 </html>

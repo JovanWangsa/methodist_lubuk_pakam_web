@@ -51,8 +51,7 @@ class HalamanPublikTest extends TestCase
             ->assertSee('Menerangi Negeri')
             ->assertSee('<strong>1 Agustus 1958</strong>', false)
             ->assertSee('Linimasa Langkah Iman &amp; Prestasi', false)
-            ->assertSee('Jajaran Petinggi &amp; Pimpinan Sekolah', false)
-            ->assertSee('Jadilah Bagian dari Sejarah Keunggulan Kami');
+            ->assertSee('Jajaran Petinggi &amp; Pimpinan Sekolah', false);
     }
 
     public function test_header_footer_dan_ppdb_mengambang_ada_di_halaman_2_dan_3(): void
@@ -79,7 +78,7 @@ class HalamanPublikTest extends TestCase
 
     public function test_nomor_whatsapp_dan_konten_diambil_dari_database(): void
     {
-        $this->get('/beranda')->assertSee('wa.me/6281265008822', false);
+        $this->get('/beranda')->assertSee('wa.me/6281264976447', false);
 
         Setting::query()->where('key', 'no_admin_wa')->first()->update(['value' => '6281111111111']);
         $blok = KontenBlok::query()->where('kunci', 'beranda.kemitraan')->first();
@@ -93,5 +92,38 @@ class HalamanPublikTest extends TestCase
     public function test_foto_kosong_tampil_sebagai_kotak_abu_abu(): void
     {
         $this->get('/sejarah')->assertSee('bg-gray-300', false);
+    }
+
+    public function test_kelima_slide_beranda_memakai_tiga_tombol_yang_sama(): void
+    {
+        $html = $this->get('/beranda')->assertOk()->getContent();
+
+        $this->assertSame(5, substr_count($html, '<span>Daftar Online</span>'));
+        $this->assertSame(5, substr_count($html, '<span>Katalog Sekolah</span>'));
+        // 5 di slide + 1 di banner PPDB.
+        $this->assertSame(6, substr_count($html, '<span>Chat Admin</span>'));
+    }
+
+    public function test_banner_ppdb_sama_di_semua_halaman_kecuali_pembuka(): void
+    {
+        foreach (['/beranda', '/sejarah', '/unit-pendidikan'] as $url) {
+            $this->get($url)
+                ->assertSee('Bergabunglah Bersama Keluarga Besar Methodist Lubuk Pakam')
+                ->assertDontSee('Jadilah Bagian dari Sejarah Keunggulan Kami')
+                ->assertSee('Daftar Sekarang Online')
+                ->assertSee('Panduan Daftar Online')
+                ->assertSee('<span>Chat Admin</span>', false)
+                ->assertDontSee('Brosur PPDB')
+                ->assertDontSee('WA Admisi');
+        }
+
+        $this->get('/')->assertDontSee('Panduan Daftar Online');
+    }
+
+    public function test_tombol_gulir_ada_di_setiap_halaman(): void
+    {
+        foreach (['/', '/beranda', '/sejarah'] as $url) {
+            $this->get($url)->assertSee('data-tombol-gulir', false);
+        }
     }
 }

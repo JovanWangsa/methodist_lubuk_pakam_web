@@ -29,13 +29,13 @@ class HalamanPublikController extends Controller
 
         return view('pages.beranda', [
             'slides' => KontenPublik::slides(Slide::LOKASI_BERANDA),
+            'tombolSlide' => KontenPublik::blok('beranda.tombol_slide')['tombol'] ?? [],
             'angka' => KontenPublik::blok('beranda.angka'),
             'instagramBlok' => $instagramBlok,
             'postInstagram' => $this->postInstagram($instagramBlok),
             'angkaSekolah' => KontenPublik::blok('beranda.angka_sekolah'),
             'visiMisi' => KontenPublik::blok('beranda.visi_misi'),
             'kemitraan' => KontenPublik::blok('beranda.kemitraan'),
-            'bannerPpdb' => KontenPublik::blok('beranda.banner_ppdb'),
         ]);
     }
 
