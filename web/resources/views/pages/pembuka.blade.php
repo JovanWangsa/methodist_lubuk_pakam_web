@@ -132,5 +132,5 @@
 @endsection
 
 @push('scripts')
-    @vite('resources/js/pembuka.js')
+    <script src="{{ \App\Support\Aset::url('js/beranda.js') }}" defer></script>
 @endpush

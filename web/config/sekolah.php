@@ -3,11 +3,6 @@
 return [
 
     /*
-    | Alamat layanan API Express (dipakai fitur PPDB dan Instagram mulai Sprint 3).
-    */
-    'api_url' => env('API_URL', 'http://localhost:3000'),
-
-    /*
     | Akun Super Admin pertama yang dibuat oleh seeder. Ganti lewat .env.
     */
     'admin' => [

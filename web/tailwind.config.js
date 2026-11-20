@@ -9,9 +9,8 @@ export default {
     darkMode: 'class',
     content: [
         './resources/views/**/*.blade.php',
-        './resources/js/**/*.js',
+        './public/js/**/*.js',
         './database/data/**/*.json',
-        './storage/framework/views/*.php',
     ],
     theme: {
         extend: {

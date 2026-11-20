@@ -1,3 +1,4 @@
+@use('App\Support\Aset')
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -14,7 +15,8 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ url()->current() }}">
     <link rel="canonical" href="{{ url()->current() }}">
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <link rel="stylesheet" href="{{ Aset::url('css/situs.css') }}">
+    <script src="{{ Aset::url('js/app.js') }}" defer></script>
     {{-- Aturan dasar bawaan desain Stitch, disalin apa adanya. --}}
     <style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style>
     @stack('head')

@@ -13,10 +13,15 @@ class HalamanPublikTest extends TestCase
 
     protected bool $seed = true;
 
-    protected function setUp(): void
+    public function test_css_dan_js_dimuat_langsung_dari_public_tanpa_vite(): void
     {
-        parent::setUp();
-        $this->withoutVite();
+        $this->assertFileExists(public_path('css/situs.css'));
+
+        $this->get('/beranda')
+            ->assertSee('/css/situs.css?v=', false)
+            ->assertSee('/js/app.js?v=', false)
+            ->assertSee('/js/beranda.js?v=', false)
+            ->assertDontSee('/build/', false);
     }
 
     public function test_halaman_1_pembuka_sesuai_desain_stitch(): void

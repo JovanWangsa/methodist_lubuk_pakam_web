@@ -339,5 +339,5 @@
 @endsection
 
 @push('scripts')
-    @vite('resources/js/beranda.js')
+    <script src="{{ \App\Support\Aset::url('js/beranda.js') }}" defer></script>>
 @endpush

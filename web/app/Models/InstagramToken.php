@@ -17,6 +17,7 @@ class InstagramToken extends Model
     protected function casts(): array
     {
         return [
+            'token' => 'encrypted',
             'expires_at' => 'datetime',
             'refreshed_at' => 'datetime',
         ];
