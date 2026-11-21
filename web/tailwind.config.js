@@ -11,6 +11,8 @@ export default {
         './resources/views/**/*.blade.php',
         './public/js/**/*.js',
         './database/data/**/*.json',
+        '!./resources/views/admin/**',
+        '!./public/js/admin.js',
     ],
     theme: {
         extend: {

@@ -70,6 +70,8 @@ Lakukan di salinan terpisah supaya folder kerja Anda tidak berubah.
    - https://methodistpakam.sch.id/api/v1/health → harus `"status":"ok"` dan `"database":"terhubung"`
 3. Bila muncul **500 Server Error**, buka `methodist_lubuk_pakam_web/storage/logs/` dan baca file log terbaru. Penyebab tersering: `APP_KEY` kosong, data database di `.env` salah, atau versi PHP di bawah 8.3.
 
+Panel admin ada di https://methodistpakam.sch.id/admin. Masuk dengan `ADMIN_EMAIL` dan `ADMIN_PASSWORD` yang dipakai saat langkah 3, lalu segera ganti password. Agar fitur lupa password mengirim email, isi `MAIL_MAILER=smtp` dan `MAIL_HOST`, `MAIL_PORT`, `MAIL_USERNAME`, `MAIL_PASSWORD`, `MAIL_FROM_ADDRESS` di `.env` hosting dengan akun email dari cPanel > Email Accounts.
+
 ## 8. Menjalankan perintah artisan tanpa Terminal (Cron Jobs)
 
 Cari dulu alamat PHP 8.3 di hosting. Biasanya `/opt/cpanel/ea-php83/root/usr/bin/php`; bila tidak ada, coba `/usr/local/bin/php`.
@@ -95,9 +97,11 @@ Mulai Sprint 4 (sinkronisasi Instagram), satu cron dibiarkan permanen setiap men
 | Yang berubah | Yang diunggah |
 | --- | --- |
 | View, controller, config, route | File yang berubah di `methodist_lubuk_pakam_web/` |
-| CSS (`public/css/situs.css`), JS, font, gambar | File yang berubah di `public_html/` |
+| CSS (`public/css/situs.css`, `admin.css`), JS, font | File yang berubah di `public_html/` |
 | Package Composer baru | Folder `vendor` hasil `composer install --no-dev` (langkah 5) |
 | Migration baru | File migration, lalu jalankan `migrate --force` lewat Cron (langkah 8) |
 | Teks di `database/data/` | File JSON, lalu jalankan `db:seed --force` lewat Cron |
+
+Foto dan PDF yang diunggah lewat admin tersimpan di `public_html/unggahan/`. Jangan menimpa atau menghapus folder ini saat memperbarui website, dan sertakan dalam backup.
 
 Setelah mengubah data langsung di phpMyAdmin hosting, kosongkan cache dengan menghapus isi folder `storage/framework/cache/data` (atau jalankan `cache:clear` lewat Cron).

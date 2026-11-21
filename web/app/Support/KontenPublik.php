@@ -19,7 +19,18 @@ class KontenPublik
 
     public static function slides(string $lokasi): Collection
     {
-        return self::ingat("slides.$lokasi", fn () => Slide::query()->tampil($lokasi)->get());
+        return Slide::hydrate(self::ingat("slides.$lokasi", fn () => self::baris(Slide::query()->tampil($lokasi)->get())));
+    }
+
+    public static function units(): Collection
+    {
+        return Unit::hydrate(self::ingat('units', fn () => self::baris(Unit::query()->orderBy('urutan')->get())));
+    }
+
+    /** Model disimpan di cache sebagai array, lalu dibentuk ulang dengan hydrate(). */
+    private static function baris(Collection $model): array
+    {
+        return $model->map(fn ($m) => $m->getAttributes())->values()->all();
     }
 
     /**
@@ -30,11 +41,6 @@ class KontenPublik
     public static function blok(string $kunci): array
     {
         return self::ingat("blok.$kunci", fn () => KontenBlok::query()->where('kunci', $kunci)->value('data') ?? []);
-    }
-
-    public static function units(): Collection
-    {
-        return self::ingat('units', fn () => Unit::query()->orderBy('urutan')->get());
     }
 
     /**

@@ -1,0 +1,27 @@
+/*
+ * SUMBER CSS PANEL ADMIN (/admin). Hasil jadinya public/css/admin.css, dibuat terpisah dari
+ * situs.css supaya class admin tidak menambah ukuran CSS halaman publik:
+ *   tailwindcss.exe -c tailwind.admin.config.js -i resources/css/admin.css -o public/css/admin.css --minify
+ */
+@import './fonts.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Komponen panel admin. */
+@layer components {
+    .a-kartu { @apply bg-surface-container-lowest rounded-xl shadow-sm border border-surface-container p-space-md md:p-space-lg; }
+    .a-label { @apply block font-label-md text-label-md text-on-surface mb-1; }
+    .a-bantuan { @apply mt-1 font-body-sm text-body-sm text-on-surface-variant; }
+    .a-input { @apply block w-full rounded-lg border border-outline-variant bg-surface-container-lowest px-3 py-2 font-body-md text-body-md text-on-surface placeholder:text-outline focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20; }
+    .a-galat { @apply mt-1 font-body-sm text-body-sm text-error; }
+    .a-tombol { @apply inline-flex items-center justify-center gap-space-xs rounded-lg px-space-md py-2 font-label-lg text-label-lg transition-colors focus:outline-none focus-visible:ring-4 focus-visible:ring-primary/25 disabled:opacity-50; }
+    .a-tombol-utama { @apply a-tombol bg-primary text-on-primary hover:bg-primary-container; }
+    .a-tombol-kedua { @apply a-tombol bg-surface-container-high text-primary hover:bg-surface-container-highest; }
+    .a-tombol-bahaya { @apply a-tombol bg-error-container text-on-error-container hover:brightness-95; }
+    .a-lencana { @apply inline-flex items-center gap-1 rounded-full px-2 py-0.5 font-label-sm text-label-sm; }
+    .a-tabel { @apply w-full text-left font-body-sm text-body-sm; }
+    .a-tabel th { @apply px-3 py-2 font-label-md text-label-md text-on-surface-variant bg-surface-container-low; }
+    .a-tabel td { @apply px-3 py-3 border-t border-surface-container align-middle; }
+}

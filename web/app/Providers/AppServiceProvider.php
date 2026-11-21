@@ -23,7 +23,7 @@ class AppServiceProvider extends ServiceProvider
     {
         // Pengaturan sekolah (nomor admin, footer, teks PPDB) tersedia di layout dan komponen
         // sebagai $pengaturan. Datanya diambil dari cache, bukan query di setiap halaman.
-        View::composer(['layouts.*', 'components.*', 'pages.*'], function ($view): void {
+        View::composer(['layouts.*', 'components.*', 'pages.*', 'admin.*'], function ($view): void {
             $view->with('pengaturan', Setting::semua());
         });
     }

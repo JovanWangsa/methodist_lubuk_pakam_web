@@ -131,4 +131,18 @@ class HalamanPublikTest extends TestCase
             $this->get($url)->assertSee('data-tombol-gulir', false);
         }
     }
+
+    public function test_halaman_tetap_jalan_saat_konten_dibaca_ulang_dari_cache_file(): void
+    {
+        // Sama seperti di hosting (CACHE_STORE=file): permintaan kedua membaca slide dari cache.
+        config(['cache.default' => 'file']);
+        cache()->flush();
+
+        foreach (['/', '/beranda'] as $url) {
+            $this->get($url)->assertOk();
+            $this->get($url)->assertOk();
+        }
+
+        cache()->flush();
+    }
 }

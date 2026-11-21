@@ -40,7 +40,8 @@ jobs:
           curl -sSL -o /tmp/tailwindcss https://github.com/tailwindlabs/tailwindcss/releases/download/v3.4.17/tailwindcss-linux-x64
           chmod +x /tmp/tailwindcss
           /tmp/tailwindcss -i resources/css/app.css -o public/css/situs.css --minify
-          git diff --exit-code -- public/css/situs.css || (echo "::error::public/css/situs.css belum dibuat ulang. Jalankan Tailwind CLI (lihat README bagian Mengubah tampilan) lalu commit hasilnya." && exit 1)
+          /tmp/tailwindcss -c tailwind.admin.config.js -i resources/css/admin.css -o public/css/admin.css --minify
+          git diff --exit-code -- public/css || (echo "::error::CSS di public/css belum dibuat ulang. Jalankan Tailwind CLI (lihat README bagian Mengubah tampilan) lalu commit hasilnya." && exit 1)
 
       - name: Jalankan tes
         run: php artisan test

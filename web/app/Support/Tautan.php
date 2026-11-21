@@ -15,7 +15,7 @@ class Tautan
     /** Tautan unduh katalog/brosur PDF dari pengaturan katalog_url. */
     public static function katalog(): string
     {
-        return Setting::ambil('katalog_url') ?: '#';
+        return self::alamat(Setting::ambil('katalog_url')) ?? '#';
     }
 
     /**
@@ -24,11 +24,21 @@ class Tautan
      */
     public static function panduan(): string
     {
-        return Setting::ambil('panduan_daftar_url') ?: route('ppdb.daftar');
+        return self::alamat(Setting::ambil('panduan_daftar_url')) ?? route('ppdb.daftar');
+    }
+
+    /** File unggahan admin (unggahan/...) dijadikan alamat lengkap; tautan lain dipakai apa adanya. */
+    private static function alamat(?string $nilai): ?string
+    {
+        if (! $nilai) {
+            return null;
+        }
+
+        return str_starts_with($nilai, 'unggahan/') ? asset($nilai) : $nilai;
     }
 
     /**
-     * Tujuan tombol menurut jenisnya di data konten: daftar, katalog, atau wa.
+     * Tujuan tombol menurut jenisnya di data konten: daftar, katalog, panduan, atau wa.
      */
     public static function untuk(string $jenis): string
     {

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\LupaPasswordController;
 use App\Http\Controllers\HalamanPublikController;
 use Illuminate\Support\Facades\Route;
 
@@ -15,3 +16,6 @@ Route::get('/daftar', [HalamanPublikController::class, 'segera'])
     ->defaults('judul', 'Pendaftaran PPDB')->defaults('sprint', 'Sprint 3')->name('ppdb.daftar');
 Route::get('/e-learning', [HalamanPublikController::class, 'segera'])
     ->defaults('judul', 'E-Learning')->defaults('sprint', 'Sprint 4')->name('elearning');
+Route::prefix('admin')->name('admin.')->group(base_path('routes/admin.php'));
+Route::get('/admin/reset-password/{token}', [LupaPasswordController::class, 'formReset'])
+    ->middleware('guest')->name('password.reset');
